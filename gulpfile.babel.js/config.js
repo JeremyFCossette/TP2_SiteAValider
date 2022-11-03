@@ -21,7 +21,7 @@ export const paths = {
     dest: 'dist/styles',
   },
   scripts: {
-    src: './src/scripts/Main.js',
+    src: './src/scripts/main.js',
     watch: 'src/scripts/**/*.js',
     dest: 'dist/scripts',
   },
