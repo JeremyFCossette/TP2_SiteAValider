@@ -4,8 +4,8 @@
 
     .logo{
         font-family:  var(--font-primary);
-        font-size:4rem;
-        font-weight:700;
+        font-size:3.2rem;
+        font-weight:bold;
         color:black;
         text-transform: uppercase;
 
@@ -16,6 +16,7 @@
     }
 
     nav ul{
+        font-family: var(--font-secondary);
         display:flex;
         gap:20px;
 
