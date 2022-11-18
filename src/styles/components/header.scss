@@ -1,4 +1,4 @@
-.entete{
+.header{
     padding:var(--spacing-md) 0;
 
     .wrapper{
@@ -10,7 +10,7 @@
     .logo{
         align-items: center;
         display:flex;
-        color:black;
+        color:var(--color-black);
         font-family: var(--font-secondary);
         font-size:3.2rem;
         font-weight:bold;
@@ -21,11 +21,21 @@
     }
 
     nav ul{
-        font-family: var(--font-secondary);
         display:flex;
         gap:20px;
-
         list-style-type: none;
+
+        li a:hover{
+            color:var(--color-black);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        :nth-child(2) a{
+            background-color:var(--color-black);
+            color:var(--color-white);
+            padding: 2px;
+        }
     }
 }
 
@@ -36,7 +46,7 @@
     span{
         width:20px;
         height:2px;
-        background-color: black;
+        background-color:var(--color-black);
         display:block;
     }
 }

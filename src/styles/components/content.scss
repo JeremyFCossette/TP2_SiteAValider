@@ -1,5 +1,5 @@
-.contenu{
-    padding:var(--spacing-lg) 0;
+.content{
+    padding:var(--spacing-xl) 0;
 
     .card{
         align-items: center;
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: $breakpoint-sm) {
 
-        .contenu .cards {
+        .content .cards {
             grid-template-columns: 1fr 1fr;
         }
 
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: $breakpoint-xs) {
 
-        .contenu .cards {
+        .content .cards {
             grid-template-columns: 1fr;
         }
 
